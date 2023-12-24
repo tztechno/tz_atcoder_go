@@ -18,6 +18,7 @@ func main() {
 	}
 
 	// Remove duplicates using a map
+	// python set action
 	seen := make(map[int]bool)
 	B := []int{}
 	for _, value := range A {
