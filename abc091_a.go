@@ -76,11 +76,13 @@ package main
 import "fmt"
 func main() {
     var A, B, C int
-    fmt.Scanf(&A, &B, &C)
-    if A+B>=C {
+    fmt.Scanf("%d %d %d", &A, &B, &C)
+
+    if A+B >= C {
         fmt.Println("Yes")
     } else {
         fmt.Println("No")
     }
 }
 ################################
+
