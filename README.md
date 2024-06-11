@@ -1,8 +1,40 @@
 # tz_atcoder_go
 
-when receiving list data,
+### latest
 
-	X := make([]int, 5)
-	for i := 0; i < 5; i++ {
-		fmt.Scan(&X[i])
-	}       
+---
+```
+
+```
+---
+```
+
+```
+---
+```
+
+```
+---
+```
+
+```
+---
+```
+
+```
+---
+```
+
+```
+---
+```
+
+```
+---
+```
+Q:文字列を1文字ずつ分割し、それをスライスに格納
+runeSlice := []rune(X)
+Q:文字列内の数字を整数（int）に変換する方法
+num, _ := strconv.Atoi(string(r))
+```
+---
